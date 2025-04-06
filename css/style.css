@@ -1,0 +1,49 @@
+body{
+    background-image: url(../images/p2.jpg);
+    background-size: cover;
+
+}
+h1{
+
+    color: 
+#08286A;
+padding-left: 7%;
+padding-top: 5%;
+}
+div{
+    color: 
+   
+#08286A;
+    border:  1px solid;
+    border-radius: 3px;
+    padding: 10px;
+    background-color:#D9F2CE ;
+   
+}
+.container {
+    position: relative;
+    width: 30%;
+    margin-left: 3%;
+  }
+  a{
+    display: inline;
+    padding: 10px 20px;
+    margin: 10px;
+    color: #08286A;
+    background-color:#D9F2CE;
+    transition: background-color 0.3 ease;
+    border-radius: 5px;
+}
+a:hover{
+    background-color: 
+    #D9F2CE;
+  
+}
+h5{
+text-align: center;
+}
+@media only screen and (max-width: 600px){
+    .container{
+        width:90%;
+    }
+}
